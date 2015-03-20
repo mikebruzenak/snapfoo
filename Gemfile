@@ -20,6 +20,8 @@ gem 'pg'
 gem 'pundit'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'twilio-ruby'
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
