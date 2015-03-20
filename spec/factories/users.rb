@@ -4,6 +4,7 @@ FactoryGirl.define do
     name "Test User"
     email "test@example.com"
     password "please123"
+    phone "5555555555"
 
     trait :admin do
       role 'admin'
